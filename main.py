@@ -21,7 +21,8 @@ def bewerte(zahl):
 		return bewertungsNamen[zahl]
 	else:
 		raise InvalidSchnitzel
-		
+
+# test		
 
 def durchschnitt(zahlen):
 	summe = 0
