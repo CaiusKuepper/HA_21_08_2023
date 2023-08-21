@@ -30,7 +30,7 @@ class TestMain(unittest.TestCase):
 
 	def test_string_eingabe_ungueltig(self):
 		# arrange
-		input = "3"
+		input = "test"
 		# act
 		# assert
 		self.assertRaises(InvalidSchnitzel, bewerte, input)
