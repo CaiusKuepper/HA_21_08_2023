@@ -41,7 +41,7 @@ jobs:
 
   deploy:
     name: Deploy EC2
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
     - name: Check out the Files
       uses: actions/checkout@v3
